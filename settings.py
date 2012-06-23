@@ -3,7 +3,6 @@
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
@@ -81,7 +80,6 @@ STATICFILES_FINDERS = (
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
-
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = '%-fw4)-(*o&amp;9(h1)napv9g^qj6im9177idx%-alai953(-593p'
 
@@ -154,3 +152,6 @@ LOGGING = {
         },
     }
 }
+
+import dj_database_url
+DATABASES = {'default': dj_database_url.config(default='postgres://localhost')}
