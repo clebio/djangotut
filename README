@@ -1,4 +1,5 @@
-### A small repo for getting a basic Django CMS site working
+A small repo for getting a basic Django CMS site working
+=====
 
 Based primarily off of the [Django install tutorial][dtut] and that of [Django CMS][dcms]. Borrowing from [Heroku's Django tutorial][hd] for the virtualenv pieces. Git reference is the [Pro Git book][pgit].
 
